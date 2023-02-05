@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="crime.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<!--NAVBAR-->
+z
+<body>
+  <div class="navbar">
+    <a href="index.html"> <img class="logo"
+      src="https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-15/328853855_209772151606184_6480212558823585381_n.jpg?stp=dst-jpg_e15_s480x480&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=fPSnZeBohgYAX_hu3iW&edm=ABJHkxYAAAAA&ccb=7-5&ig_cache_key=MzAzMTMxMDc0NjI0NDQ3MjAzMw%3D%3D.2-ccb7-5&oh=00_AfDdUKcQe-uEpv-6MuRlt0rz_IFTIW97E6epBfAJuw5TTw&oe=63E3F136&_nc_sid=fa978c.jpg"></a>
+      ></a>
+    <a class="about" href="about.html">ABOUT</a>
+    <a class="crime" href="crime.html">CRIME</a>
+    <a class="routes" href="routes.html">ROUTES</a>
+  </div>
+  <!---->
+
+  <div class="text">
+    <h1 class="header"> Reporting a Crime </h1>
+    <h3 class="story"> Report what happened, and where. </h3>
+  </div>
+
+  <div class="inputFormCrime">
+  <form>
+    What's your name?<br> <input type="text" name="name">
+    <br>
+    <br>Where's the crime happening?:<br>
+    <input type="text" id="crimLoc">
+
+    
+
+    <br>
+   <br> What is the crime?<br> <input type="text" name="rank">
+ </form>
+</div>
+
+<div class="crimesReported">
+  <!-- HTML !-->
+<button class="button-45" role="button">send it in!</button>
+<button class="button-27" button type="button" onclick="getInputValue();">See where the crimes have been reported</button>
+    
+    <script>
+        function getInputValue(){
+            // Selecting the input element and get its value 
+            var inputVal = document.getElementById("crimLoc").value;
+            
+            // Displaying the value
+            alert(inputVal);
+        }
+    </script>
+</div>
+
+</body>
+
+</html>
